@@ -2,7 +2,7 @@
 
 /**
  * hash_table_set - Add or update an element in a hash table.
- * @table: Pointer to the hash table.
+ * @ht: Pointer to the hash table.
  * @key: Key to add
  * @value: Value associated with key.
  *
@@ -16,7 +16,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	char *value_copy;
 	unsigned long i, index;
 
-	if (! ht || ! value || ! key || *key == '\0')
+	if (!ht || !value || !key || *key == '\0')
 		return (0);
 
 	value_copy = strdup(value);
