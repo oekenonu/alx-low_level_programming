@@ -6,6 +6,6 @@ int linear_search(int *array, size_t size, int value);
 void print_search(int *array, int first, int last);
 int binary_search(int *array, size_t size, int value);
 int recursive_binary_search(int *array, int left, int right, int value);
-
+int interpolation_search(int *array, size_t size, int val);
 
 #endif /* SEARCH_ALGOS_H */
