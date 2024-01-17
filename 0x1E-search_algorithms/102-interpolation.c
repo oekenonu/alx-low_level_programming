@@ -35,7 +35,7 @@ int interpolation_search(int *array, size_t size, int val)
 		if (array[pos] == val)
 			return (pos);
 
-		if (array[position] < val)
+		if (array[pos] < val)
 		{
 			low = pos + 1;
 		}
