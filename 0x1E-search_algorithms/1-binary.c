@@ -5,7 +5,7 @@
  * @array: Array to search
  * @size: Size of the array
  * @value: Value to search
- * Return: First index where value is located 
+ * Return: First index where value is located
  *         otherwise -1 for NULL array
  */
 
@@ -24,7 +24,7 @@ int binary_search(int *array, size_t size, int value)
  * @left: Search on left side of array
  * @right: Search on right side of array
  * @value: Value to search for
- * Return: First index where value is located 
+ * Return: First index where value is located
  *         otherwise -1 for NULL array
  */
 
@@ -67,7 +67,7 @@ void print_search(int *array, int first, int last)
 	{
 		if (index > 0)
 			printf(", ");
-		
+
 		index = first++;
 		printf("%d", array[index++]);
 	}
